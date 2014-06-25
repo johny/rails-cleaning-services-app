@@ -1,0 +1,36 @@
+- content_for :intro do
+  %div.intro
+    %div.jumbotron
+      %div.container
+        %h1 Profesjonalne sprzątanie biur i mieszkań w Krakowie
+        %p.lead Posprzątamy szybko i sprawnie Twoje biuro, mieszkanie lub apartament
+
+        = link_to new_order_path, class: 'btn btn-special' do
+          %span.glyphicon.glyphicon-log-in
+          Zamów sprzątanie
+
+  %div.container{role: "primary"}
+    %div.hgroup.last
+      %h2 Wysoka jakość - intywidualne podejście
+      %p
+        Naszym priorytetm jest Twoje zadowolenie i satysfakcja.
+        Posiadamy sprawdzony i doświadczony personel, a szybka i profesjonalna realizacja, bezpieczeństwo i pewność to nasze atuty.
+
+      %p Znamy się na tym co robimy - dbamy o Twój dom, o czystość i porządek.
+
+
+  %div.signup
+    %div.container
+      %div.hgroup.last
+        %h2 Pewność i bezpieczeństwo
+
+        %p Pracownicy Kraclean są sprawdzeni i dobrze wyszkoleni. Gwarantujemy wysoką jakość usług, dbałość o szczegóły. Możesz być spokojny, powierzając nam czystość Twojego mieszkania.
+        %p Nasz personel jest dodatkowo ubezpieczony na wypadek szkód.
+
+  %div.promo
+    %div.jumbotron
+      %div.container
+        %p.lead Kraclean obecnie usługą w fazie testów. Zapraszamy do wypróbowania naszej oferty!
+        = link_to new_order_path, class: 'btn btn-special' do
+          %span.glyphicon.glyphicon-log-in
+          Zamów teraz »

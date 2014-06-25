@@ -1,0 +1,46 @@
+.absolute-header{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+
+  a{color: #ddd;}
+  a:hover{
+    background: transparent !important;
+    color: #fff;
+  }
+  .container{
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+  }
+}
+
+.page-header{
+  position: relative;
+}
+
+.page-content{
+  p{
+    max-width: 45em;
+  }
+}
+
+
+.nav-right{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+.footer{
+  background: #fff;
+  color: $gray-light;
+  padding: 20px 0 20px 0;
+  margin: 10px 0 0 0;
+  text-align: center;
+
+  .container{
+    padding: 20px 0 20px 0;
+    border-top: 1px dotted #eee;
+  }
+}
